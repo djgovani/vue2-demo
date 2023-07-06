@@ -17,7 +17,7 @@ export default {
       commit("animalDetailsRequest", { payload });
       return new Promise((resolve, reject) => {
         axios
-          .post(`https://api.test.org/animal/saveData`, payload)
+          .post(`${process.env.VUE_APP_API}/animal/saveData`, payload)
           .then(({ data, status }) => {
             console.log(data);
             if (data.response.error.error_code === 0) {

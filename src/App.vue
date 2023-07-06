@@ -10,7 +10,7 @@ export default {
   name: 'App',
   data() {
     return {
-      env: process.env.ENV
+      env: process.env.VUE_APP_ENVIRONMENT_NAME
     }
   }
 }
