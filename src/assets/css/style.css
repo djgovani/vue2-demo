@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "euclid_circular_regular";
+  src: url("../font/euclid_circular_regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "euclid_circular_regular", sans-serif;
+}
